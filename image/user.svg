@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="40px" height="42px" viewBox="0 0 40 42" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 46.2 (44496) - http://www.bohemiancoding.com/sketch -->
+    <title>B50C03B8-BD57-49B2-936A-62011163B690</title>
+    <desc>Created with sketchtool.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#E30B41" offset="0%"></stop>
+            <stop stop-color="#B20933" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="ATPB-LP" transform="translate(-740.000000, -1961.000000)" fill="url(#linearGradient-1)">
+            <g id="Plus" transform="translate(106.000000, 1768.000000)">
+                <g id="user" transform="translate(634.000000, 193.000000)">
+                    <g id="shape">
+                        <path d="M20,24 C13.372583,24 8,18.627417 8,12 C8,5.372583 13.372583,0 20,0 C26.627417,0 32,5.372583 32,12 C32,18.627417 26.627417,24 20,24 Z M20,20 C24.418278,20 28,16.418278 28,12 C28,7.581722 24.418278,4 20,4 C15.581722,4 12,7.581722 12,12 C12,16.418278 15.581722,20 20,20 Z M0,38 L0,34 C0,29.581722 3.581722,26 8,26 L32,26 C36.418278,26 40,29.581722 40,34 L40,38 C40,40.209139 38.209139,42 36,42 L4,42 C1.790861,42 0,40.209139 0,38 Z M4,38 L36,38 L36,34 C36,31.790861 34.209139,30 32,30 L8,30 C5.790861,30 4,31.790861 4,34 L4,38 Z" fill-rule="nonzero"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

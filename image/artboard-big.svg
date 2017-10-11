@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="168px" height="168px" viewBox="0 0 168 168" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 46.2 (44496) - http://www.bohemiancoding.com/sketch -->
+    <title>44D444BC-82FC-4908-90CE-C4D374675889</title>
+    <desc>Created with sketchtool.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#E30B41" offset="0%"></stop>
+            <stop stop-color="#B20933" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="ATPB-LP" transform="translate(-164.000000, -4738.000000)">
+            <g id="Tng" transform="translate(188.000000, 4638.000000)">
+                <g id="artboard-big" transform="translate(0.000000, 124.000000)">
+                    <g>
+                        <circle id="Oval" fill="#FFFFFF" cx="60" cy="60" r="60"></circle>
+                        <circle id="Oval" stroke="#E1E1E1" fill="#FFFFFF" cx="60" cy="60" r="40"></circle>
+                        <g id="artboard" transform="translate(38.000000, 38.000000)" fill-rule="nonzero" fill="url(#linearGradient-1)">
+                            <path d="M21.984068,32 C21.9955352,31.9999018 22.0070048,31.9999018 22.018476,32 L38,32 L38,12 C38,9.790861 36.209139,8 34,8 L10,8 C7.790861,8 6,9.790861 6,12 L6,32 L21.984068,32 Z M27.7015622,36 L33.24939,40.4382624 C34.111914,41.1282814 34.2517568,42.3868662 33.5617376,43.24939 C32.8717186,44.111914 31.6131338,44.2517568 30.75061,43.5617376 L22,36.5612496 L13.2493901,43.5617376 C12.3868662,44.2517568 11.1282815,44.111914 10.4382624,43.24939 C9.74824328,42.3868662 9.88808604,41.1282814 10.7506099,40.4382624 L16.2984379,36 L2,36 C0.8954305,36 0,35.1045694 0,34 C0,32.8954306 0.8954305,32 2,32 L2,12 C2,7.581722 5.581722,4 10,4 L20,4 L20,2 C20,0.8954305 20.8954306,0 22,0 C23.1045694,0 24,0.8954305 24,2 L24,4 L34,4 C38.418278,4 42,7.581722 42,12 L42,32 C43.1045694,32 44,32.8954306 44,34 C44,35.1045694 43.1045694,36 42,36 L27.7015622,36 Z" id="shape"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

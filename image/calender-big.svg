@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="168px" height="168px" viewBox="0 0 168 168" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 46.2 (44496) - http://www.bohemiancoding.com/sketch -->
+    <title>34ED1D0C-638E-445B-9A5D-E3885CDBAD65</title>
+    <desc>Created with sketchtool.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#E30B41" offset="0%"></stop>
+            <stop stop-color="#B20933" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="ATPB-LP" transform="translate(-1109.000000, -4738.000000)">
+            <g id="Tng" transform="translate(188.000000, 4638.000000)">
+                <g id="calender-big" transform="translate(945.000000, 124.000000)">
+                    <g>
+                        <circle id="Oval-Copy-2" fill="#FFFFFF" cx="60" cy="60" r="60"></circle>
+                        <circle id="Oval-Copy-2" stroke="#E1E1E1" fill="#FFFFFF" cx="60" cy="60" r="40"></circle>
+                        <g id="calender-check" transform="translate(39.000000, 40.000000)" fill-rule="nonzero" fill="url(#linearGradient-1)">
+                            <path d="M4,14 L36,14 L36,12 C36,9.790861 34.209139,8 32,8 L30,8 L30,10 C30,11.1045695 29.1045694,12 28,12 C26.8954306,12 26,11.1045695 26,10 L26,8 L14,8 L14,10 C14,11.1045695 13.1045695,12 12,12 C10.8954305,12 10,11.1045695 10,10 L10,8 L8,8 C5.790861,8 4,9.790861 4,12 L4,14 Z M36,18 L4,18 L4,32 C4,34.209139 5.790861,36 8,36 L20,36 C21.1045694,36 22,36.8954306 22,38 C22,39.1045694 21.1045694,40 20,40 L8,40 C3.581722,40 0,36.418278 0,32 L0,12 C0,7.581722 3.581722,4 8,4 L10,4 L10,2 C10,0.8954305 10.8954305,0 12,0 C13.1045695,0 14,0.8954305 14,2 L14,4 L26,4 L26,2 C26,0.8954305 26.8954306,0 28,0 C29.1045694,0 30,0.8954305 30,2 L30,4 L32,4 C36.418278,4 40,7.581722 40,12 L40,20 C40,21.1045694 39.1045694,22 38,22 C36.8954306,22 36,21.1045694 36,20 L36,18 Z M27.272078,29 L31.5147186,33.2426406 L38.5857864,26.1715728 C39.366835,25.3905242 40.633165,25.3905242 41.4142136,26.1715728 C42.1952622,26.9526214 42.1952622,28.2189514 41.4142136,29 L32.9289322,37.4852814 C32.1478836,38.26633 30.8815536,38.26633 30.100505,37.4852814 L24.4436508,31.8284272 C23.6626022,31.0473786 23.6626022,29.7810486 24.4436508,29 C25.2246994,28.2189514 26.4910294,28.2189514 27.272078,29 Z" id="shape"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
