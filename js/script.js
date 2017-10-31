@@ -70,4 +70,78 @@ $(function () {
       $('.modal').removeClass('active');
     }, 250)
   });
+
+  $('.header__menu-button').click(function() {
+    $('.header__row-top').toggleClass('active-header');
+    $('body').toggleClass('overflow-body')
+  });
+$('.header__menu-link').click(function() {
+    $('.header__row-top').removeClass('active-header');
+    $('body').removeClass('overflow-body')
+  });
+
+});
+
+
+
+
+$(window).on('load resize', function() { 
+  if (innerWidth > 699) {
+    if ($(".header__about-row").hasClass('slick-slider')) {
+      $(".header__about-row").slick('unslick');
+    }
+    if ($(".advantages__row").hasClass('slick-slider')) {
+      $(".advantages__row").slick('unslick');
+    }
+    if ($(".stage__row").hasClass('slick-slider')) {
+      $(".stage__row").slick('unslick');
+    }
+    if ($(".training__row").hasClass('slick-slider')) {
+      $(".training__row").slick('unslick');
+    }
+    if ($(".reviews__logo-row").hasClass('slick-slider')) {
+      $(".reviews__logo-row").slick('unslick');
+    }
+  } else {
+    $(".header__about-row").not('.slick-initialized').slick({
+      variableWidth: true,
+      slidesToShow: 1,
+      slidesToScroll: 1,
+      dots: true,
+      arrows: false,
+      centerMode: true,
+    });
+    $(".advantages__row").not('.slick-initialized').slick({
+      variableWidth: true,
+      slidesToShow: 1,
+      slidesToScroll: 1,
+      dots: true,
+      arrows: false,
+      centerMode: true,
+    });
+    $(".stage__row").not('.slick-initialized').slick({
+      variableWidth: true,
+      slidesToShow: 1,
+      slidesToScroll: 1,
+      dots: true,
+      arrows: false,
+      centerMode: true,
+    });
+    $(".training__row").not('.slick-initialized').slick({
+      variableWidth: true,
+      slidesToShow: 1,
+      slidesToScroll: 1,
+      dots: true,
+      arrows: false,
+      centerMode: true,
+    });
+    $(".reviews__logo-row").not('.slick-initialized').slick({
+      variableWidth: true,
+      slidesToShow: 1,
+      slidesToScroll: 1,
+      dots: true,
+      arrows: false,
+      centerMode: true,
+    });
+  }
 });

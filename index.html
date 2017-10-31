@@ -6,9 +6,10 @@
   <title>Tehnoprogress</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="">
+  <link rel="stylesheet" href="css/slick.css">
   <link rel="stylesheet" href="css/style.css">
 </head>
-<body>
+<body class="body">
   <header class="header">
     <div class="wrapper">
       <div class="header__row-top">
@@ -16,27 +17,30 @@
           <a href="http://www.tehnoprogress.ru/" class="header__logo">
             <img class="header__logo-img" src="image/logo-heder.png" alt="Technoprogress Logo"></a>
           </div>
-          <div class="header__right-block">
-            <ul class="header__menu">
-              <li class="header__menu-item">
-                <a href="#header__application" class="header__menu-link">Повышение квалификации</a>
-              </li>
-              <li class="header__menu-item">
-                <a href="#price" class="header__menu-link">Цена</a>
-              </li>
-              <li class="header__menu-item">
-                <a href="#advantages" class="header__menu-link">Ваши выгоды</a>
-              </li>
-              <li class="header__menu-item">
-                <a href="#training" class="header__menu-link">Формы обучения</a>
-              </li>
-              <li class="header__menu-item">
-                <a href="#traning-block" class="header__menu-link">Удостоверение</a>
-              </li>
-            </ul>
-            <div class="header__phone-wrapper">
-              <a href="tel:74951044632" class="header__phone">+7 (495) 104-46-32</a>
-            </div>
+          <div class="header__menu-button">
+            <div class="header__menu-button-item"></div>
+            <div class="header__menu-button-item"></div>
+            <div class="header__menu-button-item"></div>
+          </div>
+          <ul class="header__menu">
+            <li class="header__menu-item">
+              <a href="#header__application" class="header__menu-link">Повышение квалификации</a>
+            </li>
+            <li class="header__menu-item">
+              <a href="#price" class="header__menu-link">Цена</a>
+            </li>
+            <li class="header__menu-item">
+              <a href="#advantages" class="header__menu-link">Ваши выгоды</a>
+            </li>
+            <li class="header__menu-item">
+              <a href="#training" class="header__menu-link">Формы обучения</a>
+            </li>
+            <li class="header__menu-item">
+              <a href="#traning-block" class="header__menu-link">Удостоверение</a>
+            </li>
+          </ul>
+          <div class="header__phone-wrapper">
+            <a href="tel:74951044632" class="header__phone">+7 (495) 104-46-32</a>
           </div>
         </div>
         <h1 class="header__title">Учебный центр ТехноПрогресс</h1>
@@ -46,10 +50,10 @@
         <a href="#" class="header__button button__form">Оставить заявку</a>
         <div class="header__about">
           <div class="header__about-row">
-            <div class="header__about-item">Работаем со всеми<br> регионами РФ</div>
-            <div class="header__about-item">20 лет успешно<br> на рынке</div>
-            <div class="header__about-item">Обучили уже более<br> 350 000 человек</div>
-            <div class="header__about-item">Только положительные<br> отзывы</div>
+            <div class="header__about-item header__about-item--one">Работаем со всеми<br> регионами РФ</div>
+            <div class="header__about-item header__about-item--two">20 лет успешно<br> на рынке</div>
+            <div class="header__about-item header__about-item--three">Обучили уже более<br> 350 000 человек</div>
+            <div class="header__about-item header__about-item--four">Только положительные<br> отзывы</div>
           </div>
         </div>
         <div class="header__application" id='header__application'>
@@ -75,10 +79,8 @@
     <main class="main">
       <div class="main__bgtop">
         <div class="text__info-block">
-          <div class="wrapper">
-            <div class="text__info-block-wrapper">
-              <div class="text__info-text">Учебный центр «ТехноПрогресс» предлагает обучение и консультационные услуги по вопросам повышения квалификации по промышленной безопасности для аттестации в Ростехнадзоре.</div>
-            </div>
+          <div class="text__info-block-wrapper">
+            <div class="text__info-text">Учебный центр «ТехноПрогресс» предлагает обучение и консультационные услуги по вопросам повышения квалификации по промышленной безопасности для аттестации в Ростехнадзоре.</div>
           </div>
         </div>
         <div class="advantages" id='advantages'>
@@ -86,28 +88,28 @@
             <h2 class="advantages__title">Наши преимущества</h2>
             <div class="advantages__title-text">Гарантированный результат и экономия времени</div>
             <div class="advantages__row">
-              <div class="advantages__item">
+              <div class="advantages__item advantages__item--one">
                 <div class="advantages__item-text">Напрямую <br>взаимодействуем с гос<br> органами без посредников</div>
               </div>
-              <div class="advantages__item">
+              <div class="advantages__item advantages__item--two">
                 <div class="advantages__item-text">Оказываем бесплатное<br> сопровождение<br> и консультирование</div>
               </div>
-              <div class="advantages__item">
+              <div class="advantages__item advantages__item--three">
                 <div class="advantages__item-text">Выделяем персонального<br> менеджера для Вас</div>
               </div>
-              <div class="advantages__item">
+              <div class="advantages__item advantages__item--four">
                 <div class="advantages__item-text">Оказываем сопровождение<br> в прохождении аттестации во<br> всех регионах РФ</div>
               </div>
-              <div class="advantages__item">
+              <div class="advantages__item advantages__item--five">
                 <div class="advantages__item-text">Несколько форматов <br>обучения на выбор</div>
               </div>
-              <div class="advantages__item">
+              <div class="advantages__item advantages__item--six">
                 <div class="advantages__item-text">Гарантированный результат в<br> сжатые сроки, все обучение<br> в одном месте</div>
               </div>
-              <div class="advantages__item">
+              <div class="advantages__item advantages__item--seven">
                 <div class="advantages__item-text">Комфортные аудитории<br> и бесплатные обеды</div>
               </div>
-              <div class="advantages__item">
+              <div class="advantages__item advantages__item--eight">
                 <div class="advantages__item-text">Экономия затрат на обучение<br> при приобретении комплекса</div>
               </div>
             </div>
@@ -155,13 +157,11 @@
             </div>
           </div>
           <div class="text__info-block-two">
-            <div class="wrapper">
-              <div class="text__info-block-wrapper">
-                <div class="text__info-text">Помните, что предусмотрен штраф от 200 000 руб. до 1 000 000 руб., в соответствии с частью 1 и частью 3 Кодекса РФ об административных правонарушениях за отсутствие аттестации по промышленной безопасности.</div>
-              </div>
+            <div class="text__info-block-wrapper">
+              <div class="text__info-text">Помните, что предусмотрен штраф от 200 000 руб. до 1 000 000 руб., в соответствии с частью 1 и частью 3 Кодекса РФ об административных правонарушениях за отсутствие аттестации по промышленной безопасности.</div>
             </div>
           </div>
-          <div class="application-form__block" id="submit__application">
+          <div class="application-form__block">
             <div class="wrapper">
              <h2 class="application-form__block-title">Заполнить заявку</h2>
              <form class="application-form" method="POST">
@@ -190,16 +190,16 @@
           <div class="wrapper">
             <h2 class="training__title">Формы обучения</h2>
             <div class="training__row">
-              <div class="training__item">
+              <div class="training__item training__item--one">
                 <div class="training__item-text">Очное<br>обучение</div>
               </div>
-              <div class="training__item">
+              <div class="training__item training__item--two">
                 <div class="training__item-text">C выездом к заказчику</div>
               </div>
-              <div class="training__item">
+              <div class="training__item training__item--three">
                 <div class="training__item-text">Дистанционное (вебинар)</div>
               </div>
-              <div class="training__item">
+              <div class="training__item training__item--four">
                 <div class="training__item-text">По индивидуальному графику</div>
               </div>
             </div>
@@ -208,91 +208,91 @@
       </div>
       <div class="main__bgbot">
         <div class="traning-tabs">
-          <div class="wrapper">
-            <div class="traning-tabs__button-wrapper">
-              <div class="traning-tabs__row">
-                <div class="traning-tabs__button active" data-traning-tabs="one">Обучение специалистов<br> по промышленной безопасности</div>
-                <div class="traning-tabs__button" data-traning-tabs="two">Обучение специалистов<br> по энергетической безопасности</div>
-                <div class="traning-tabs__button" data-traning-tabs="three">Обучение специалистов по безопасности гидротехнических сооружений</div>
-              </div>
+          <div class="traning-tabs__button-wrapper">
+            <div class="traning-tabs__row">
+              <div class="traning-tabs__button active" data-traning-tabs="one">Обучение специалистов<br> по промышленной безопасности</div>
+              <div class="traning-tabs__button" data-traning-tabs="two">Обучение специалистов<br> по энергетической безопасности</div>
+              <div class="traning-tabs__button" data-traning-tabs="three">Обучение специалистов по безопасности гидротехнических сооружений</div>
             </div>
-            <div class="traning-tabs__text-wrapper">
-              <div class="traning-tabs__text-item active fade in" data-traning-item="one">
-                <ul class="traning-tabs__text-item-ul">
-                  <div class="traning-tabs__text-item-col">
-                    <li class="traning-tabs__text-item-li" data-counter="А">Общие требования промышленной безопасности<ul class="traning-tabs__text-item-ul2">
-                      <li class="traning-tabs__text-item-li2" data-counter="А.1">сновы промышленной безопасности</li>
-                    </ul>
-                  </li>
-                  <li class="traning-tabs__text-item-li" data-counter="Б">Специальные требования промышленной безопасности (ТПБ)<ul class="traning-tabs__text-item-ul2">
-                    <li class="traning-tabs__text-item-li2" data-counter="Б.1">ТПБ в химической, нефтехимической и <br>нефтеперерабатывающей промышленности</li>
-                    <li class="traning-tabs__text-item-li2" data-counter="Б.2">ТПБ в нефтяной и газовой промышленности</li>
-                    <li class="traning-tabs__text-item-li2" data-counter="Б.3">ТПБ в металлургической промышленности</li>
-                    <li class="traning-tabs__text-item-li2" data-counter="Б.4">ТПБ в горнорудной промышленности</li>
+          </div>
+          <div class="traning-tabs__text-wrapper">
+            <div class="traning-tabs__text-item active fade in" data-traning-item="one">
+              <ul class="traning-tabs__text-item-ul">
+                <div class="traning-tabs__text-item-col">
+                  <li class="traning-tabs__text-item-li" data-counter="А">Общие требования промышленной безопасности<ul class="traning-tabs__text-item-ul2">
+                    <li class="traning-tabs__text-item-li2" data-counter="А.1">сновы промышленной безопасности</li>
                   </ul>
                 </li>
-              </div>
-              <div class="traning-tabs__text-item-col">
-                <li class="traning-tabs__text-item-li2" data-counter="Б.5">ТПБ в угольной промышленности</li>
-                <li class="traning-tabs__text-item-li2" data-counter="Б.6">ТПБ по маркшейдерскому обеспечению безопасного ведения горных работ</li>
-                <li class="traning-tabs__text-item-li2" data-counter="Б.7">ТПБ на объектах газораспределения и газопотребления</li>
-                <li class="traning-tabs__text-item-li2" data-counter="Б.8">ТПБ к оборудованию, работающему под давлением</li>
-                <li class="traning-tabs__text-item-li2" data-counter="Б.9">ТПБ к подъемным сооружениям</li>
-                <li class="traning-tabs__text-item-li2" data-counter="Б.10">ТПБ при транспортировании опасных веществ</li>
-                <li class="traning-tabs__text-item-li2" data-counter="Б.11">ТПБ на объектах хранения и переработки растительного сырья</li>
-                <li class="traning-tabs__text-item-li2" data-counter="Б.12">ТПБ, относящиеся к взрывным работам</li>
-              </div>
-            </ul>
+                <li class="traning-tabs__text-item-li" data-counter="Б">Специальные требования промышленной безопасности (ТПБ)<ul class="traning-tabs__text-item-ul2">
+                  <li class="traning-tabs__text-item-li2" data-counter="Б.1">ТПБ в химической, нефтехимической и <br>нефтеперерабатывающей промышленности</li>
+                  <li class="traning-tabs__text-item-li2" data-counter="Б.2">ТПБ в нефтяной и газовой промышленности</li>
+                  <li class="traning-tabs__text-item-li2" data-counter="Б.3">ТПБ в металлургической промышленности</li>
+                  <li class="traning-tabs__text-item-li2" data-counter="Б.4">ТПБ в горнорудной промышленности</li>
+                </ul>
+              </li>
+            </div>
+            <div class="traning-tabs__text-item-col">
+              <li class="traning-tabs__text-item-li2" data-counter="Б.5">ТПБ в угольной промышленности</li>
+              <li class="traning-tabs__text-item-li2" data-counter="Б.6">ТПБ по маркшейдерскому обеспечению безопасного ведения горных работ</li>
+              <li class="traning-tabs__text-item-li2" data-counter="Б.7">ТПБ на объектах газораспределения и газопотребления</li>
+              <li class="traning-tabs__text-item-li2" data-counter="Б.8">ТПБ к оборудованию, работающему под давлением</li>
+              <li class="traning-tabs__text-item-li2" data-counter="Б.9">ТПБ к подъемным сооружениям</li>
+              <li class="traning-tabs__text-item-li2" data-counter="Б.10">ТПБ при транспортировании опасных веществ</li>
+              <li class="traning-tabs__text-item-li2" data-counter="Б.11">ТПБ на объектах хранения и переработки растительного сырья</li>
+              <li class="traning-tabs__text-item-li2" data-counter="Б.12">ТПБ, относящиеся к взрывным работам</li>
+            </div>
+          </ul>
+        </div>
+        <div class="traning-tabs__text-item fade" data-traning-item="two">
+          <ul class="traning-tabs__text-item-ul">
+            <div class="traning-tabs__text-item-col--mid">
+              <li class="traning-tabs__text-item-li2" data-counter="Г.1">Требования к порядку работы в электроустановках потребителей</li>
+              <li class="traning-tabs__text-item-li2" data-counter="Г.2">Требования к порядку работы на тепловых энергоустановках и тепловых сетях</li>
+              <li class="traning-tabs__text-item-li2" data-counter="Г.3">Требования к эксплуатации электрических станций и сетей</li>
+            </div>
+          </ul>
+        </div>
+        <div class="traning-tabs__text-item fade" data-traning-item="three">
+          <ul class="traning-tabs__text-item-ul">
+            <div class="traning-tabs__text-item-col--mid">
+              <li class="traning-tabs__text-item-li2" data-counter="Д.1">Гидротехнические сооружения объектов промышленности</li>
+              <li class="traning-tabs__text-item-li2" data-counter="Д.2">Гидротехнические сооружения объектов энергетики</li>
+              <li class="traning-tabs__text-item-li2" data-counter="Д.3">Гидротехнические сооружения объектов водохозяйственного комплекса</li>
+              <li class="traning-tabs__text-item-li2" data-counter="Д.4">Экспертиза деклараций безопасности гидротехнических сооружений</li>
+            </div>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="traning-block">
+      <div class="wrapper">
+        <div class="traning-block__text-top">
+          Обучение проводится в соответствии с «Положением об организации работы по подготовке и аттестации специалистов организаций, поднадзорных Федеральной службе по экологическому, технологическому и атомному надзору», утвержденному Приказом Ростехнадзора от 29.01.2007 г. № 37 (зарегистрирован в Минюсте России 22.03.2007 г. №9133).
+        </div>
+        <h2 class="traning-block__title" id="traning-block">
+          Что выдается по окончанию обучения?
+        </h2>
+        <div class="traning-block__title-text">
+          При прохождении предаттестационной подготовки выдается: удостверение о повышении квалификации
+        </div>
+      </div>
+      <div class="traning-block__wrapper">
+        <div class="wrapper">
+          <div class="traning-block__license">
+            <img src="image/ud.jpg" alt="License" class="traning-block__license-img">
           </div>
-          <div class="traning-tabs__text-item fade" data-traning-item="two">
-            <ul class="traning-tabs__text-item-ul">
-              <div class="traning-tabs__text-item-col--mid">
-                <li class="traning-tabs__text-item-li2" data-counter="Г.1">Требования к порядку работы в электроустановках потребителей</li>
-                <li class="traning-tabs__text-item-li2" data-counter="Г.2">Требования к порядку работы на тепловых энергоустановках и тепловых сетях</li>
-                <li class="traning-tabs__text-item-li2" data-counter="Г.3">Требования к эксплуатации электрических станций и сетей</li>
-              </div>
-            </ul>
+          <div class="traning-block__license-text-top">Удостверение о повышении квалификации</div>
+          <div class="traning-block__license-text-middle">
+            По результатам аттестации (в аттестационной комиссии) выдаётся:
+            протокол заседания аттестационной комиссии Ростехнадзора;
           </div>
-          <div class="traning-tabs__text-item fade" data-traning-item="three">
-            <ul class="traning-tabs__text-item-ul">
-              <div class="traning-tabs__text-item-col--mid">
-                <li class="traning-tabs__text-item-li2" data-counter="Д.1">Гидротехнические сооружения объектов промышленности</li>
-                <li class="traning-tabs__text-item-li2" data-counter="Д.2">Гидротехнические сооружения объектов энергетики</li>
-                <li class="traning-tabs__text-item-li2" data-counter="Д.3">Гидротехнические сооружения объектов водохозяйственного комплекса</li>
-                <li class="traning-tabs__text-item-li2" data-counter="Д.4">Экспертиза деклараций безопасности гидротехнических сооружений</li>
-              </div>
-            </ul>
+          <div class="traning-block__license-text-bottom">
+            В соответствии с требованиями приказа федеральной службы по экологическому, технологическому и атомному надзору от 29 января 2007 г. п. 37 «О порядке подготовки и аттестации работников организаций, поднадзорных федеральной службе по экологическому, технологическому и атомному надзору»
           </div>
         </div>
       </div>
     </div>
-  </div>
-  <div class="traning-block">
-    <div class="wrapper">
-      <div class="traning-block__text-top">
-        Обучение проводится в соответствии с «Положением об организации работы по подготовке и аттестации специалистов организаций, поднадзорных Федеральной службе по экологическому, технологическому и атомному надзору», утвержденному Приказом Ростехнадзора от 29.01.2007 г. № 37 (зарегистрирован в Минюсте России 22.03.2007 г. №9133).
-      </div>
-      <h2 class="traning-block__title" id="traning-block">
-        Что выдается по окончанию обучения?
-      </h2>
-      <div class="traning-block__title-text">
-        При прохождении предаттестационной подготовки выдается: удостверение о повышении квалификации
-      </div>
-      <div class="traning-block__license">
-        <img src="image/ud.jpg" alt="License" class="traning-block__license-img">
-      </div>
-      <div class="traning-block__license-text-top">Удостверение о повышении квалификации</div>
-      <div class="traning-block__license-text-middle">
-        По результатам аттестации (в аттестационной комиссии) выдаётся:
-        протокол заседания аттестационной комиссии Ростехнадзора;
-      </div>
-      <div class="traning-block__license-text-bottom">
-        В соответствии с требованиями приказа федеральной службы по экологическому, технологическому и атомному надзору от 29 января 2007 г. п. 37 «О порядке подготовки и аттестации работников организаций, поднадзорных федеральной службе по экологическому, технологическому и атомному надзору»
-      </div>
-    </div>
-  </div>
-  <div class="location">
-    <div class="wrapper">
+    <div class="location">
       <h2 class="location__title">
         Где проводится аттестация специалистов?
       </h2>
@@ -321,24 +321,24 @@
         </div>
       </div>
     </div>
-  </div>
-  <div class="reviews">
-    <h2 class="reviews__title">Отзывы наших клиентов</h2>
-    <div class="wrapper">
-      <div class="reviews__item">
-        <div class="reviews__item-logo"><img src="image/casale-logo.png" alt="Casale Logo" class="reviews__item-logo-img"></div>
-        <div class="reviews__item-text">Компания Casale S.A. благодарит за профессионально проведенное обучение наших специалистов,  организованное «ИПК ТЕХНОПРОГРЕСС» в рамках Контракта № A-00600-07 от 30/06/2015. Программа обучения включала следующие темы: «Промышленная, энергетическая безопасность и безопасность гидротехнических сооружений» (объекты химической, нефтехимической и нефтеперерабатывающей  промышленности).</div>
-      </div>
-      <div class="reviews__item">
-        <div class="reviews__item-logo"><img src="image/aps-logo.png" alt="APS Logo" class="reviews__item-logo-img"></div>
-        <div class="reviews__item-text">Завершая Тренинг в области дополнительного профессионального образования, проведённый «Институтом  повышения квалификации ТЕХНОПРОГРЕСС» в рамках Контракта № 23598092357-IPK3-PKPB от 29/01/2016, Компания APS S.p.A. выражает Вам своё почтение и полное удовлетворение обучением. Предоставленные услуги по обучению включали: Повышением квалификации специалистов по программе "Промышленная, энергетическая безопасность и безопасность гидротехнических сооружений".</div>
-      </div>
-      <div class="reviews__logo-row">
-        <div class="reviews__logo-item"><img src="image/gas-prom-logo.png" alt="GazProm Logo" class="review__logo-item-img"></div>
-        <div class="reviews__logo-item"><img src="image/cherkozovo-logo.png" alt="Cherkizovo Logo" class="review__logo-item-img"></div>
-        <div class="reviews__logo-item"><img src="image/uaz-logo.png" alt="UAZ Logo" class="review__logo-item-img"></div>
-        <div class="reviews__logo-item"><img src="image/ural-logo.png" alt="Uralskaya stal Logo" class="review__logo-item-img"></div>
-        <div class="reviews__logo-item"><img src="image/rusgidro-logo.png" alt="RusGidro Logo" class="review__logo-item-img"></div>
+    <div class="reviews">
+      <h2 class="reviews__title">Отзывы наших клиентов</h2>
+      <div class="wrapper">
+        <div class="reviews__item">
+          <div class="reviews__item-logo"><img src="image/casale-logo.png" alt="Casale Logo" class="reviews__item-logo-img"></div>
+          <div class="reviews__item-text">Компания Casale S.A. благодарит за профессионально проведенное обучение наших специалистов,  организованное «ИПК ТЕХНОПРОГРЕСС» в рамках Контракта № A-00600-07 от 30/06/2015. Программа обучения включала следующие темы: «Промышленная, энергетическая безопасность и безопасность гидротехнических сооружений» (объекты химической, нефтехимической и нефтеперерабатывающей  промышленности).</div>
+        </div>
+        <div class="reviews__item">
+          <div class="reviews__item-logo"><img src="image/aps-logo.png" alt="APS Logo" class="reviews__item-logo-img"></div>
+          <div class="reviews__item-text">Завершая Тренинг в области дополнительного профессионального образования, проведённый «Институтом  повышения квалификации ТЕХНОПРОГРЕСС» в рамках Контракта № 23598092357-IPK3-PKPB от 29/01/2016, Компания APS S.p.A. выражает Вам своё почтение и полное удовлетворение обучением. Предоставленные услуги по обучению включали: Повышением квалификации специалистов по программе "Промышленная, энергетическая безопасность и безопасность гидротехнических сооружений".</div>
+        </div>
+        <div class="reviews__logo-row">
+          <div class="reviews__logo-item"><img src="image/gas-prom-logo.png" alt="GazProm Logo" class="review__logo-item-img"></div>
+          <div class="reviews__logo-item"><img src="image/cherkozovo-logo.png" alt="Cherkizovo Logo" class="review__logo-item-img"></div>
+          <div class="reviews__logo-item"><img src="image/uaz-logo.png" alt="UAZ Logo" class="review__logo-item-img"></div>
+          <div class="reviews__logo-item"><img src="image/ural-logo.png" alt="Uralskaya stal Logo" class="review__logo-item-img"></div>
+          <div class="reviews__logo-item"><img src="image/rusgidro-logo.png" alt="RusGidro Logo" class="review__logo-item-img"></div>
+        </div>
       </div>
     </div>
   </div>
@@ -346,7 +346,7 @@
 <footer class="footer">
   <div class="footer-form__block">
     <div class="wrapper">
-     <h2 class="footer-form__block-title">Заявка на обучение</h2>
+     <h2 class="footer-form__block-title" id="submit__application">Заявка на обучение</h2>
      <form class="application-form" method="POST">
       <div class="form-item">
         <input type="text" class="form-item__input" placeholder="Ваше имя"/>
@@ -383,14 +383,16 @@
 <div class="footer__adress">
   <div class="wrapper">
     <div class="footer__adress-row">
-      <div class="footer__adress-item">
-        <div class="footer__adress-top">
-          <div class="footer__adress-sity">Москва</div>
-          <a href="tel:84954119436" class="footer__adress-phone">8 (495) 411-94-36</a>
-        </div>
-        <div class="footer__adress-adress">Проектируемый проезд № 4062,<br>
-          д. 6, стр. 16, БЦ «PORTPLAZA»</div>
-        </div>
+      <div class="footer__adress-item-wrapper">
+        <div class="footer__adress-item">
+          <div class="footer__adress-top">
+            <div class="footer__adress-sity">Москва</div>
+            <a href="tel:84954119436" class="footer__adress-phone">8 (495) 411-94-36</a>
+          </div>
+          <div class="footer__adress-adress">Проектируемый проезд № 4062,<br>д. 6, стр. 16, БЦ «PORTPLAZA»</div>
+        </div>        
+      </div>
+      <div class="footer__adress-item-wrapper">
         <div class="footer__adress-item">
           <div class="footer__adress-top">
             <div class="footer__adress-sity">Санкт-Петербург</div>
@@ -398,6 +400,8 @@
           </div>
           <div class="footer__adress-adress">Детский переулок, д. 2</div>
         </div>
+      </div>
+      <div class="footer__adress-item-wrapper">
         <div class="footer__adress-item">
           <div class="footer__adress-top">
             <div class="footer__adress-sity">Казань</div>
@@ -405,6 +409,8 @@
           </div>
           <div class="footer__adress-adress">ул. Островского, д. 84</div>
         </div>
+      </div>
+      <div class="footer__adress-item-wrapper">
         <div class="footer__adress-item">
           <div class="footer__adress-top">
             <div class="footer__adress-sity">Пятигорск</div>
@@ -415,8 +421,8 @@
       </div>
     </div>
   </div>
+</div>
 </footer>
-
 <div class="modal fade">
   <div class="modal__wrapper">
     <div class="modal__wrapper-close modal-close">+</div>
@@ -428,6 +434,7 @@
 </div>
 
 <script src="js/jquery-1.12.0.min.js"></script>
+<script src="js/slick.min.js"></script>
 <script src="js/script.js"></script>
 </body>
 </html>
